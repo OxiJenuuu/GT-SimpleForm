@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formular</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Formular</h1>
+  <form id="myForm">
+    <label for="nume">Name :</label>
+    <input type="text" id="nume" required>
+
+    <label for="localitate">Location :</label>
+    <input type="text" id="localitate" required>
+
+    <label>Favorite :</label>
+    <input type="radio" id="caine" name="animale" value="caine" required>
+    <label for="caine">Câine</label>
+    <input type="radio" id="pisica" name="animale" value="pisica" required>
+    <label for="pisica">Pisică</label>
+
+    <input type="submit" value="Trimite">
+  </form>
+
+  <div id="rezultat">
+    <h2>Rezultat:</h2>
+    <p id="mesaj"></p>
+    <div id="imagine"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
